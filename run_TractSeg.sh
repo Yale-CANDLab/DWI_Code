@@ -41,7 +41,6 @@ mrconvert -force ${outpath}'/'${sub}'_ses-shapesV1_space-T1w_desc-preproc_space-
 
 # # Run Tract Seg
 peaksfile=${outpath}'/'${sub}'_ses-shapesV1_space-T1w_desc-preproc_space-T1w_desc-wmFODmtnormed_msmtcsd_Peaks_MNIreg.nii.gz'
-gqifile=${outpath}'/'${sub}'_ses-shapesV1_space-T1w_desc-preproc_space-T1w_desc-gfa_gqiscalar_MNIreg.nii.gz'
 
 echo 'Starting TractSeg for '${sub}
 
